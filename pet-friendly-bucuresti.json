@@ -1,22 +1,30 @@
 {
-  "titlu": "Locații Pet-Friendly – București",
+  "titlu": "Locații Pet-Friendly – București (listă extinsă)",
   "actualizat": "2026-02-10",
-  "total": 35,
+  "total": 74,
   "surse": [
     "InYourPocket",
     "Framey",
-    "Wanderlog",
+    "Wanderlog (Top 50)",
     "Bucharest.io",
     "Google Maps",
-    "BringFido",
-    "Booking.com"
+    "KingPet",
+    "Booking.com",
+    "TripAdvisor",
+    "RestaurantGuru",
+    "Foursquare"
   ],
-  "note": "Locații confirmate pet-friendly din surse multiple. Toate au coordonate GPS.",
+  "note": "Locații confirmate pet-friendly din surse multiple. Majoritatea restaurantelor/cafenelelor cu terasă din București acceptă animale de companie – lista include doar cele verificate explicit.",
   "categorii": {
-    "cafenele": 12,
-    "restaurante": 13,
+    "cafenele": 19,
+    "restaurante": 22,
+    "terase_gradini": 2,
+    "baruri_cluburi": 3,
     "cat_cafe_zoo": 2,
-    "hoteluri": 8
+    "librarii_cultural": 1,
+    "shopping": 1,
+    "hoteluri": 18,
+    "parcuri": 6
   },
   "locatii": [
     {
@@ -43,7 +51,7 @@
       "indoor": true,
       "outdoor": true,
       "facilitati_animale": [],
-      "sursa": "InYourPocket, Framey"
+      "sursa": "InYourPocket, Framey, Wanderlog"
     },
     {
       "id": 3,
@@ -82,7 +90,7 @@
       "indoor": true,
       "outdoor": true,
       "facilitati_animale": ["treats câini"],
-      "sursa": "InYourPocket, Framey"
+      "sursa": "InYourPocket, Framey, Wanderlog"
     },
     {
       "id": 6,
@@ -95,7 +103,7 @@
       "indoor": true,
       "outdoor": true,
       "facilitati_animale": [],
-      "sursa": "Wanderlog, Google Maps"
+      "sursa": "Wanderlog"
     },
     {
       "id": 7,
@@ -108,7 +116,7 @@
       "indoor": true,
       "outdoor": true,
       "facilitati_animale": [],
-      "sursa": "Bucharest.io"
+      "sursa": "Bucharest.io, Wanderlog"
     },
     {
       "id": 8,
@@ -177,6 +185,97 @@
     },
     {
       "id": 13,
+      "nume": "papsh café",
+      "categorie": "cafenea",
+      "adresa": "Strada Paul Urechescu 16",
+      "sector": 1,
+      "lat": 44.460797,
+      "lon": 26.101790,
+      "indoor": true,
+      "outdoor": true,
+      "facilitati_animale": [],
+      "sursa": "Google Maps"
+    },
+    {
+      "id": 14,
+      "nume": "Sip Coffee & Wine",
+      "categorie": "cafenea",
+      "adresa": "Calea Moșilor 116-122",
+      "sector": 2,
+      "lat": 44.435678,
+      "lon": 26.109205,
+      "indoor": true,
+      "outdoor": true,
+      "facilitati_animale": [],
+      "sursa": "Google Maps"
+    },
+    {
+      "id": 15,
+      "nume": "Saint Roastery Specialty Coffee",
+      "categorie": "cafenea",
+      "adresa": "Strada Maltopol 26 bis",
+      "sector": 1,
+      "lat": 44.451348,
+      "lon": 26.078335,
+      "indoor": true,
+      "outdoor": true,
+      "facilitati_animale": [],
+      "sursa": "Wanderlog"
+    },
+    {
+      "id": 16,
+      "nume": "T-Zero Coffee Shop",
+      "categorie": "cafenea",
+      "adresa": "Strada Dianei 1",
+      "sector": 1,
+      "lat": 44.437560,
+      "lon": 26.106230,
+      "indoor": true,
+      "outdoor": true,
+      "facilitati_animale": [],
+      "sursa": "KingPet, Bucharest.io"
+    },
+    {
+      "id": 17,
+      "nume": "Cafeteca Cișmigiu",
+      "categorie": "cafenea",
+      "adresa": "Bulevardul Regina Elisabeta 61",
+      "sector": 5,
+      "lat": 44.434486,
+      "lon": 26.090517,
+      "indoor": true,
+      "outdoor": true,
+      "facilitati_animale": [],
+      "sursa": "Google Maps"
+    },
+    {
+      "id": 18,
+      "nume": "Ted's Coffee Co (Victoriei)",
+      "categorie": "cafenea",
+      "adresa": "Calea Victoriei 224",
+      "sector": 1,
+      "lat": 44.449000,
+      "lon": 26.096000,
+      "indoor": true,
+      "outdoor": true,
+      "facilitati_animale": [],
+      "sursa": "LaptopFriendly"
+    },
+    {
+      "id": 19,
+      "nume": "Infinitea Tea House",
+      "categorie": "cafenea",
+      "adresa": "Strada Dr. Grigore Romniceanu 7",
+      "sector": 6,
+      "lat": 44.427783,
+      "lon": 26.072061,
+      "indoor": true,
+      "outdoor": true,
+      "facilitati_animale": [],
+      "sursa": "Wanderlog, Bucharest.io"
+    },
+    {
+      "id": 20,
       "nume": "Energiea",
       "categorie": "restaurant",
       "adresa": "Strada Ion Brezoianu 4",
@@ -186,10 +285,10 @@
       "indoor": true,
       "outdoor": true,
       "facilitati_animale": ["boluri apă"],
-      "sursa": "InYourPocket, Framey"
+      "sursa": "InYourPocket, Framey, Wanderlog"
     },
     {
-      "id": 14,
+      "id": 21,
       "nume": "Papila",
       "categorie": "restaurant",
       "adresa": "Strada Sfinților 6",
@@ -202,7 +301,7 @@
       "sursa": "InYourPocket"
     },
     {
-      "id": 15,
+      "id": 22,
       "nume": "J'ai Bistrot",
       "categorie": "restaurant",
       "adresa": "Calea Griviței 55",
@@ -212,10 +311,10 @@
       "indoor": true,
       "outdoor": true,
       "facilitati_animale": [],
-      "sursa": "InYourPocket, Framey"
+      "sursa": "InYourPocket, Framey, Wanderlog"
     },
     {
-      "id": 16,
+      "id": 23,
       "nume": "Sardin",
       "categorie": "restaurant",
       "adresa": "Bulevardul Mircea Vodă 39H",
@@ -228,7 +327,7 @@
       "sursa": "Framey"
     },
     {
-      "id": 17,
+      "id": 24,
       "nume": "Simbio",
       "categorie": "restaurant",
       "adresa": "Strada Negustori 26",
@@ -238,10 +337,10 @@
       "indoor": true,
       "outdoor": true,
       "facilitati_animale": [],
-      "sursa": "Framey"
+      "sursa": "Framey, Wanderlog"
     },
     {
-      "id": 18,
+      "id": 25,
       "nume": "Soro Lume",
       "categorie": "restaurant",
       "adresa": "Strada Fluierului 33",
@@ -254,7 +353,7 @@
       "sursa": "Framey"
     },
     {
-      "id": 19,
+      "id": 26,
       "nume": "Băcănia Veche",
       "categorie": "restaurant",
       "adresa": "Bulevardul Dacia 25, Piața Romană",
@@ -267,7 +366,7 @@
       "sursa": "Framey"
     },
     {
-      "id": 20,
+      "id": 27,
       "nume": "Le Bab Downtown",
       "categorie": "restaurant",
       "adresa": "Calea Victoriei 12A",
@@ -280,7 +379,7 @@
       "sursa": "Wanderlog, Framey"
     },
     {
-      "id": 21,
+      "id": 28,
       "nume": "Le Bab (Charles de Gaulle)",
       "categorie": "restaurant",
       "adresa": "Piața Charles de Gaulle 3",
@@ -293,7 +392,7 @@
       "sursa": "Framey"
     },
     {
-      "id": 22,
+      "id": 29,
       "nume": "Acuarela",
       "categorie": "restaurant",
       "adresa": "Strada Polonă 40",
@@ -303,13 +402,13 @@
       "indoor": true,
       "outdoor": true,
       "facilitati_animale": [],
-      "sursa": "Bucharest.io, TripAdvisor"
+      "sursa": "Bucharest.io, TripAdvisor, Wanderlog"
     },
     {
-      "id": 23,
+      "id": 30,
       "nume": "Shift Pub",
       "categorie": "restaurant",
-      "adresa": "Str. General Eremia Grigorescu 17",
+      "adresa": "Strada General Eremia Grigorescu 17",
       "sector": 1,
       "lat": 44.444900,
       "lon": 26.101630,
@@ -319,7 +418,7 @@
       "sursa": "ShiftPub.ro"
     },
     {
-      "id": 24,
+      "id": 31,
       "nume": "Frudisiac",
       "categorie": "restaurant",
       "adresa": "Intrarea Bitolia 4",
@@ -332,7 +431,7 @@
       "sursa": "Bucharest.io"
     },
     {
-      "id": 25,
+      "id": 32,
       "nume": "Deschis Gastrobar",
       "categorie": "restaurant",
       "adresa": "Splaiul Unirii 160",
@@ -345,7 +444,189 @@
       "sursa": "Bucharest.io"
     },
     {
-      "id": 26,
+      "id": 33,
+      "nume": "Grivița Pub & Grill",
+      "categorie": "restaurant",
+      "adresa": "Strada Grivița 130",
+      "sector": 1,
+      "lat": 44.446918,
+      "lon": 26.078079,
+      "indoor": true,
+      "outdoor": true,
+      "facilitati_animale": [],
+      "sursa": "KingPet"
+    },
+    {
+      "id": 34,
+      "nume": "Pio Bistro",
+      "categorie": "restaurant",
+      "adresa": "Strada Puțul lui Zamfir 2",
+      "sector": 1,
+      "lat": 44.460631,
+      "lon": 26.095043,
+      "indoor": true,
+      "outdoor": true,
+      "facilitati_animale": [],
+      "sursa": "Wanderlog"
+    },
+    {
+      "id": 35,
+      "nume": "Zelateria Braserie",
+      "categorie": "restaurant",
+      "adresa": "Bulevardul Aviatorilor 65",
+      "sector": 1,
+      "lat": 44.435875,
+      "lon": 26.103884,
+      "indoor": true,
+      "outdoor": true,
+      "facilitati_animale": [],
+      "sursa": "Wanderlog"
+    },
+    {
+      "id": 36,
+      "nume": "HYGGE Social Kitchen",
+      "categorie": "restaurant",
+      "adresa": "Calea Victoriei 21",
+      "sector": 3,
+      "lat": 44.437000,
+      "lon": 26.099000,
+      "indoor": true,
+      "outdoor": true,
+      "facilitati_animale": [],
+      "sursa": "Wanderlog"
+    },
+    {
+      "id": 37,
+      "nume": "Linea / Closer to the Moon",
+      "categorie": "restaurant",
+      "adresa": "Strada Lipscani 17",
+      "sector": 3,
+      "lat": 44.432954,
+      "lon": 26.096933,
+      "indoor": true,
+      "outdoor": true,
+      "facilitati_animale": [],
+      "sursa": "Wanderlog"
+    },
+    {
+      "id": 38,
+      "nume": "Meron",
+      "categorie": "restaurant",
+      "adresa": "Bulevardul Regina Elisabeta 40",
+      "sector": 5,
+      "lat": 44.434617,
+      "lon": 26.089125,
+      "indoor": true,
+      "outdoor": true,
+      "facilitati_animale": [],
+      "sursa": "Wanderlog"
+    },
+    {
+      "id": 39,
+      "nume": "Stadio Atrium",
+      "categorie": "restaurant",
+      "adresa": "Strada Academiei 24",
+      "sector": 1,
+      "lat": 44.437099,
+      "lon": 26.099274,
+      "indoor": true,
+      "outdoor": true,
+      "facilitati_animale": [],
+      "sursa": "Wanderlog"
+    },
+    {
+      "id": 40,
+      "nume": "Stadio Unirii",
+      "categorie": "restaurant",
+      "adresa": "Bulevardul Unirii 1",
+      "sector": 3,
+      "lat": 44.426900,
+      "lon": 26.102500,
+      "indoor": true,
+      "outdoor": true,
+      "facilitati_animale": [],
+      "sursa": "Wanderlog"
+    },
+    {
+      "id": 41,
+      "nume": "Stadio Park",
+      "categorie": "restaurant",
+      "adresa": "Bulevardul Nordului 7-9",
+      "sector": 1,
+      "lat": 44.479780,
+      "lon": 26.085997,
+      "indoor": true,
+      "outdoor": true,
+      "facilitati_animale": [],
+      "sursa": "Wanderlog"
+    },
+    {
+      "id": 42,
+      "nume": "Grădina Floreasca",
+      "categorie": "terasa",
+      "adresa": "Bulevardul Mircea Eliade 16",
+      "sector": 1,
+      "lat": 44.469000,
+      "lon": 26.098000,
+      "indoor": false,
+      "outdoor": true,
+      "facilitati_animale": [],
+      "sursa": "Framey"
+    },
+    {
+      "id": 43,
+      "nume": "Sera Eden",
+      "categorie": "terasa",
+      "adresa": "Strada C.A. Rosetti 37",
+      "sector": 1,
+      "lat": 44.440333,
+      "lon": 26.098014,
+      "indoor": false,
+      "outdoor": true,
+      "facilitati_animale": [],
+      "sursa": "LiveTheWorld, Framey"
+    },
+    {
+      "id": 44,
+      "nume": "Control Club",
+      "categorie": "bar",
+      "adresa": "Strada Constantin Mille 4",
+      "sector": 1,
+      "lat": 44.435446,
+      "lon": 26.097063,
+      "indoor": true,
+      "outdoor": true,
+      "facilitati_animale": [],
+      "sursa": "Wanderlog"
+    },
+    {
+      "id": 45,
+      "nume": "Fabrica Club",
+      "categorie": "bar",
+      "adresa": "Strada 11 Iunie 50",
+      "sector": 4,
+      "lat": 44.424000,
+      "lon": 26.098000,
+      "indoor": true,
+      "outdoor": true,
+      "facilitati_animale": [],
+      "sursa": "Wanderlog"
+    },
+    {
+      "id": 46,
+      "nume": "Quantic Pub",
+      "categorie": "bar",
+      "adresa": "Șoseaua Grozăvești 82",
+      "sector": 6,
+      "lat": 44.438065,
+      "lon": 26.059322,
+      "indoor": true,
+      "outdoor": true,
+      "facilitati_animale": [],
+      "sursa": "Wanderlog"
+    },
+    {
+      "id": 47,
       "nume": "Miau Cat Café",
       "categorie": "cat_cafe",
       "adresa": "Strada Între Gârle 7",
@@ -358,10 +639,10 @@
       "sursa": "TripAdvisor, RestaurantGuru, Wanderlog"
     },
     {
-      "id": 27,
+      "id": 48,
       "nume": "Zoo Café",
       "categorie": "zoo_cafe",
-      "adresa": "Bd. Basarabia 94",
+      "adresa": "Bulevardul Basarabia 94",
       "sector": 2,
       "lat": 44.432934,
       "lon": 26.152020,
@@ -371,7 +652,33 @@
       "sursa": "Bucharest.ro, Wanderlog"
     },
     {
-      "id": 28,
+      "id": 49,
+      "nume": "Cărturești Carusel",
+      "categorie": "librarie",
+      "adresa": "Strada Lipscani 55",
+      "sector": 3,
+      "lat": 44.431892,
+      "lon": 26.101609,
+      "indoor": true,
+      "outdoor": false,
+      "facilitati_animale": [],
+      "sursa": "Wanderlog"
+    },
+    {
+      "id": 50,
+      "nume": "Promenada Mall",
+      "categorie": "shopping",
+      "adresa": "Calea Floreasca 246B",
+      "sector": 1,
+      "lat": 44.478060,
+      "lon": 26.103198,
+      "indoor": true,
+      "outdoor": true,
+      "facilitati_animale": [],
+      "sursa": "KingPet"
+    },
+    {
+      "id": 51,
       "nume": "Novotel Bucharest City Centre",
       "categorie": "hotel",
       "adresa": "Calea Victoriei 37B",
@@ -382,7 +689,7 @@
       "sursa": "Wanderlog, Booking.com"
     },
     {
-      "id": 29,
+      "id": 52,
       "nume": "Hotel Capitol",
       "categorie": "hotel",
       "adresa": "Calea Victoriei 29",
@@ -393,10 +700,10 @@
       "sursa": "Wanderlog, Booking.com"
     },
     {
-      "id": 30,
+      "id": 53,
       "nume": "Grand Hotel Bucharest",
       "categorie": "hotel",
-      "adresa": "Bd. Nicolae Bălcescu 4",
+      "adresa": "Bulevardul Nicolae Bălcescu 4",
       "sector": 1,
       "lat": 44.437100,
       "lon": 26.102200,
@@ -404,7 +711,7 @@
       "sursa": "Wanderlog"
     },
     {
-      "id": 31,
+      "id": 54,
       "nume": "Pullman Bucharest World Trade Center",
       "categorie": "hotel",
       "adresa": "Piața Montreal 10",
@@ -415,7 +722,7 @@
       "sursa": "Wanderlog, Booking.com"
     },
     {
-      "id": 32,
+      "id": 55,
       "nume": "Hilton Garden Inn Bucharest Old Town",
       "categorie": "hotel",
       "adresa": "Strada Doamnei 12",
@@ -426,7 +733,7 @@
       "sursa": "Hilton.com, Wanderlog"
     },
     {
-      "id": 33,
+      "id": 56,
       "nume": "Crowne Plaza Bucharest",
       "categorie": "hotel",
       "adresa": "Bulevardul Poligrafiei 1",
@@ -437,7 +744,7 @@
       "sursa": "Booking.com"
     },
     {
-      "id": 34,
+      "id": 57,
       "nume": "Hello Hotels Gara de Nord",
       "categorie": "hotel",
       "adresa": "Calea Griviței 143",
@@ -448,7 +755,7 @@
       "sursa": "Booking.com"
     },
     {
-      "id": 35,
+      "id": 58,
       "nume": "ibis Styles Bucharest City Center",
       "categorie": "hotel",
       "adresa": "Strada Știrbei Vodă 146",
@@ -457,6 +764,182 @@
       "lon": 26.081513,
       "stele": 3,
       "sursa": "Booking.com"
+    },
+    {
+      "id": 59,
+      "nume": "Hotel Caro",
+      "categorie": "hotel",
+      "adresa": "Strada Barbu Văcărescu 164A",
+      "sector": 2,
+      "lat": 44.474354,
+      "lon": 26.108259,
+      "stele": 4,
+      "sursa": "Wanderlog, Google Maps"
+    },
+    {
+      "id": 60,
+      "nume": "Radisson Blu Hotel Bucharest",
+      "categorie": "hotel",
+      "adresa": "Calea Victoriei 63-81",
+      "sector": 1,
+      "lat": 44.441111,
+      "lon": 26.094167,
+      "stele": 5,
+      "sursa": "Wanderlog"
+    },
+    {
+      "id": 61,
+      "nume": "JW Marriott Bucharest Grand Hotel",
+      "categorie": "hotel",
+      "adresa": "Calea 13 Septembrie 90",
+      "sector": 5,
+      "lat": 44.425407,
+      "lon": 26.077038,
+      "stele": 5,
+      "sursa": "Wanderlog"
+    },
+    {
+      "id": 62,
+      "nume": "Sheraton Bucharest Hotel",
+      "categorie": "hotel",
+      "adresa": "Calea Dorobanților 5-7",
+      "sector": 1,
+      "lat": 44.446722,
+      "lon": 26.099056,
+      "stele": 5,
+      "sursa": "Wanderlog"
+    },
+    {
+      "id": 63,
+      "nume": "Europa Royale Bucharest",
+      "categorie": "hotel",
+      "adresa": "Strada Franceză 60",
+      "sector": 3,
+      "lat": 44.431000,
+      "lon": 26.099500,
+      "stele": 4,
+      "sursa": "Wanderlog"
+    },
+    {
+      "id": 64,
+      "nume": "Moxy Bucharest Old Town",
+      "categorie": "hotel",
+      "adresa": "Strada Doamnei 17-19",
+      "sector": 3,
+      "lat": 44.433197,
+      "lon": 26.101639,
+      "stele": 3,
+      "sursa": "Wanderlog, Booking.com"
+    },
+    {
+      "id": 65,
+      "nume": "InterContinental Athénée Palace Bucharest",
+      "categorie": "hotel",
+      "adresa": "Strada Episcopiei 1-3",
+      "sector": 1,
+      "lat": 44.441031,
+      "lon": 26.095528,
+      "stele": 5,
+      "sursa": "Wanderlog"
+    },
+    {
+      "id": 66,
+      "nume": "Mercure Bucharest City Center",
+      "categorie": "hotel",
+      "adresa": "Strada George Enescu 15-17",
+      "sector": 1,
+      "lat": 44.442835,
+      "lon": 26.096173,
+      "stele": 4,
+      "sursa": "Wanderlog"
+    },
+    {
+      "id": 67,
+      "nume": "Hotel Opera",
+      "categorie": "hotel",
+      "adresa": "Strada Ion Brezoianu 37",
+      "sector": 1,
+      "lat": 44.434500,
+      "lon": 26.096000,
+      "stele": 2,
+      "sursa": "Wanderlog"
+    },
+    {
+      "id": 68,
+      "nume": "Hotel Continental Forum București",
+      "categorie": "hotel",
+      "adresa": "Strada Izvor 82-84",
+      "sector": 5,
+      "lat": 44.432000,
+      "lon": 26.090000,
+      "stele": 3,
+      "sursa": "Wanderlog"
+    },
+    {
+      "id": 69,
+      "nume": "Parcul Herăstrău (King Michael I)",
+      "categorie": "parc",
+      "adresa": "Șoseaua Pavel Dimitrievici Kiseleff 32",
+      "sector": 1,
+      "lat": 44.471000,
+      "lon": 26.079000,
+      "facilitati_animale": ["zone off-leash câini", "trasee plimbare"],
+      "sursa": "KingPet, Wanderlog"
+    },
+    {
+      "id": 70,
+      "nume": "Grădina Cișmigiu",
+      "categorie": "parc",
+      "adresa": "Bulevardul Regina Elisabeta 30",
+      "sector": 1,
+      "lat": 44.436100,
+      "lon": 26.089800,
+      "facilitati_animale": [],
+      "sursa": "KingPet, Wanderlog"
+    },
+    {
+      "id": 71,
+      "nume": "Parcul Tineretului",
+      "categorie": "parc",
+      "adresa": "Bulevardul Tineretului",
+      "sector": 4,
+      "lat": 44.409000,
+      "lon": 26.107000,
+      "facilitati_animale": [],
+      "sursa": "KingPet"
+    },
+    {
+      "id": 72,
+      "nume": "Parcul Carol I",
+      "categorie": "parc",
+      "adresa": "Bulevardul Mărășești",
+      "sector": 4,
+      "lat": 44.414800,
+      "lon": 26.101200,
+      "facilitati_animale": [],
+      "sursa": "Wanderlog"
+    },
+    {
+      "id": 73,
+      "nume": "Parcul Grădina Icoanei",
+      "categorie": "parc",
+      "adresa": "Strada Icoanei",
+      "sector": 2,
+      "lat": 44.444800,
+      "lon": 26.105900,
+      "facilitati_animale": [],
+      "sursa": "Wanderlog"
+    },
+    {
+      "id": 74,
+      "nume": "Parcul IOR (Alexandru Ioan Cuza)",
+      "categorie": "parc",
+      "adresa": "Bulevardul Alexandru Ioan Cuza",
+      "sector": 3,
+      "lat": 44.424600,
+      "lon": 26.134700,
+      "facilitati_animale": [],
+      "sursa": "Wanderlog"
     }
   ]
 }
